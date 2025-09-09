@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f1f3f6;
+    }
+
+    
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #2874f0;
+      padding: 10px 20px;
+      color: white;
+    }
+
+    .navbar .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .navbar .search-bar input {
+      width: 400px;
+      padding: 8px;
+      border: none;
+      border-radius: 2px;
+    }
+    .navbar .search-bar img {
+      width: 20px;
+      height: 20px;
+      margin-left: -30px;
+      cursor: pointer;
+      top: 10px;
+      position: relative;
+    }
+
+    .navbar .nav-links {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .nav-links button {
+     
+      color: #2874f0;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 2px;
+    }
+
+  
+    .categories {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px 0;
+    }
+
+    .category {
+      text-align: center;
+      width: 100px;
+    }
+
+    .category img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+    }
+
+    .category p {
+      margin-top: 9px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+ 
+  <div class="navbar">
+    <div class="logo">Flipkart <span style="font-size: 12px;">Explore Plus</span></div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search for Products, Brands and More" />
+      <img src="search.png" alt="">
+    </div>
+    <div class="nav-links">
+      <button>Login</button>
+      <span>Cart</span>
+    </div>
+  </div>
+
+  
+  <div class="categories">
+    <div class="category">
+      <img src="minutes.png" alt=/>
+      <p>Minutes</p>
+    </div>
+    <div class="category">
+      <img src="mobile.avif" alt= />
+      <p>Mobiles & Tablets</p>
+    </div>
+    <div class="category">
+      <img src="fashion.jpg" alt="" />
+      <p>Fashion</p>
+    </div>
+    <div class="category">
+      <img src="download (2).jpg" alt="" />
+      <p>Electronics</p>
+    </div>
+    <div class="category">
+      <img src="furniture.jpg" alt="" />
+      <p>Home & Furniture</p>
+    </div>
+    <div class="category">
+      <img src="tv.webp" alt="" />
+      <p>TVs & Appliances</p>
+    </div>
+    <div class="category">
+      <img src="flight.jpg" alt="" />
+      <p>Flight Bookings</p>
+    </div>
+    <div class="category">
+      <img src="beauty.jpg" alt="" />
+      <p>Beauty, Food</p>
+    </div>
+    <div class="category">
+      <img src="grocery.jpg" alt="" />
+      <p>Grocery</p>
+    </div>
+  </div>
+
+</body>
+</html>
