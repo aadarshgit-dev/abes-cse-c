@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #a{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(122, 100, 100);
+            float: left;
+            border-radius: 20px;
+            }
+
+            #b{
+                width: 200px;
+                height: 200px;
+                background-color: rgb(12, 100, 100);
+                float:right;
+                border-radius: 20px;
+            }
+    </style>
+</head>
+<body>
+    <div id="a"></div>
+    <div id="b"></div>
+    <script>
+        const student1={
+            name:"Aadarsh",
+            rollno:1,
+            branch:"CSE",
+        }
+        const student2={
+            name:"Mohan",
+            rollno:2,
+            branch:"CSE",
+        }
+        const student3={
+            name:"Rohan",
+            rollno:3,
+            branch:"IT",
+        }
+        document.getElementById("a").innerHTML=`student 1: ${student1.name} ${student1.rollno} ${student1.branch}<br>`;
+        document.getElementById("a").innerHTML=`student 2: ${student2.name} ${student2.rollno} ${student2.branch}`;
+    </script>
+</body>
+</html>
