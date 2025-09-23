@@ -4,10 +4,11 @@
     
 </head>
 <body>
-    <p id="adi"></p>
     <script>
-        let hello = ()=> "python is good language";
-        document.getElementById("adi").innerHTML=hello();
+      function multiply(a,b=2){
+        return a*b;
+      }
+      document.write(multiply(5));
     </script>
 </body>
 </html>
